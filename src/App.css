@@ -19,18 +19,7 @@ html {
 }
 body {
   background-color:  var(--brown);
-}
-.qari {
-  /* background: #fffeee; */
-  /* background-image: linear-gradient(
-    90deg,
-    rgb(235, 168, 67) 27%,
-    rgb(183, 129, 54)85%
-  ); */
-  padding: 1rem 9%;
-  margin: 2px;
-  border-radius: 8px;
-  box-shadow: 5px 5px 5px rgba(146, 146, 146, 0.34);
+  color: var(--white);
 }
 p{
   font-size: 15px;
@@ -42,6 +31,7 @@ i{
   font-size: 25px;
   padding: 3px;
   margin: 4px;
+  color: var(--primary);
 }
 .head{
   display: flex;
@@ -84,4 +74,10 @@ i{
   padding: 5px;
   margin-block: 5px;
   
+}
+.Quran1{
+  padding: 3px;
+  margin: 2px;
+  margin-block: 5px;
+  display: block;
 }

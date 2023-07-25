@@ -8,7 +8,7 @@ import QuranAudio2 from "./components/QuranAudio2";
 
 const App = () => {
   return (
-    <section className="App">
+    <section>
       <Routes>
         <Route exact path="/" element={<Main/>} />
         <Route path="/QuranAudio1" element={<QuranAudio1 />} />
