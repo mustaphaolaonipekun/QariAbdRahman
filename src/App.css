@@ -1,38 +1,87 @@
-.App {
-  text-align: center;
-}
+:root {
+  --white: rgba(255, 255, 255, 1);
+  --brown:  rgb(183, 129, 54);
+  --primary:   rgb(235, 168, 67);
+  --yellow:  gold;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-decoration: none;
+  font-family: "Nunito", sans-serif;
+  text-decoration: none;
+  user-select: none;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color:  var(--brown);
+}
+.qari {
+  /* background: #fffeee; */
+  /* background-image: linear-gradient(
+    90deg,
+    rgb(235, 168, 67) 27%,
+    rgb(183, 129, 54)85%
+  ); */
+  padding: 1rem 9%;
+  margin: 2px;
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px rgba(146, 146, 146, 0.34);
+}
+p{
+  font-size: 15px;
+}
+img{
+  width: 100%;
+}
+i{
+  font-size: 25px;
+  padding: 3px;
+  margin: 4px;
+}
+.head{
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 3px;
+  color: var(--brown);
+  text-align: center;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 10px;
+  background: var(--yellow);
+  padding: 4px;
+  box-shadow: 55px 25px 25px rgba(146, 146, 146, 0.34);
 }
-
-.App-link {
-  color: #61dafb;
+.quran{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  color: var(--white);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.quran:hover{
+  color: antiquewhite;
+}
+#play{
+  background: var(--yellow);
+  border-radius: 50%;
+  padding:3px;
+  color: var(--brown);
+}
+.quranTimer{
+  display: flex;
+  gap: 30px;
+}
+.links{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  flex-direction: column;
+  background: var(--brown);
+  padding: 5px;
+  margin-block: 5px;
+  
 }
